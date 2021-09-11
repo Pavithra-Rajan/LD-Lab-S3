@@ -1,0 +1,13 @@
+top modules
+	module circuitI(OUTPUT,INPUT_A,INPUT_B,S) A01 EVAL Pavithra_B190632CS_Q01.v
+other modules
+	module  mux_4way_16(O,S1,S2,I1,I2,I3,I4) A01 Pavithra_B190632CS_Q15.v
+	mux A01 Pavithra_B190632CS_Q12.v
+	xnor_gate A01 Pavithra_B190632CS_Q06.v
+	or_16_gate A01 Pavithra_B190632CS_Q09.v
+	xor_16_gate A01 Pavithra_B190632CS_Q10.v
+	nor_gate A01 Pavithra_B190632CS_Q04.v
+	and_16_gate A01 Pavithra_B190632CS_Q08.v
+	xor_gate A01 Pavithra_B190632CS_Q05.v
+	and_gate A01 Pavithra_B190632CS_Q02.v
+	or_gate A01 Pavithra_B190632CS_Q03.v
