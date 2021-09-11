@@ -1,0 +1,62 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assignment
+# Compile of Pavithra_B190632CS_Q08.v was successful.
+# Compile of Pavithra_B190632CS_TB_Q08.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU2 work.ALU_testbench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 22:52:27 on Oct 27,2020
+# Loading work.ALU2
+# Loading work.not_gate
+# Loading work.and_16_1
+# Loading work.xor_16_1
+# Loading work.adder_16
+# Loading work.FullAdder
+# Loading work.xor_gate
+# Loading work.and_gate
+# Loading work.or_gate
+# Loading work.xnor_gate
+# Loading work.and_gate_16
+# Loading work.mux_16
+# Loading work.nor_16_in
+# Loading work.ALU_testbench
+# Loading work.mux
+add wave -position insertpoint sim:/ALU_testbench/*
+run
+# x=0000000000001100,y=0000000000001101,n0=x,zx=x,nx=x,zy=x,ny=x,f=x,output=xxxxxxxxxxxxxxxx,ng=x,zr=x
+# x=0000000000001100,y=0000000000001101,n0=0,zx=1,nx=0,zy=1,ny=0,f=1,output=0000000000000000,ng=0,zr=1
+# x=0000000000001100,y=0000000000001101,n0=1,zx=1,nx=1,zy=1,ny=1,f=1,output=0000000000000001,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=1,nx=1,zy=1,ny=0,f=1,output=1111111111111111,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=0,nx=0,zy=1,ny=1,f=0,output=0000000000001100,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=1,nx=1,zy=0,ny=0,f=0,output=0000000000001101,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=0,zy=1,ny=1,f=0,output=1111111111110011,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=1,nx=1,zy=0,ny=0,f=0,output=1111111111110010,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=0,zy=1,ny=1,f=1,output=1111111111110100,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=1,nx=1,zy=0,ny=0,f=1,output=1111111111110011,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=1,zy=1,ny=1,f=1,output=0000000000001101,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=1,nx=1,zy=0,ny=1,f=1,output=0000000000001110,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=0,nx=0,zy=1,ny=1,f=1,output=0000000000001011,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=1,nx=1,zy=0,ny=0,f=1,output=0000000000001100,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=0,nx=0,zy=0,ny=0,f=1,output=0000000000011001,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=1,zy=0,ny=0,f=1,output=1111111111111111,ng=1,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=0,zy=0,ny=1,f=1,output=0000000000000001,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=0,zx=0,nx=0,zy=0,ny=0,f=0,output=0000000000001100,ng=0,zr=0
+# x=0000000000001100,y=0000000000001101,n0=1,zx=0,nx=1,zy=0,ny=1,f=0,output=0000000000001101,ng=0,zr=0
