@@ -1,0 +1,47 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project Evaluation
+# Compile of Pavithra_B190632CS_Q01_A04.v was successful with warnings.
+# Compile of Pavithra_B190632CS_Q01_TB_A04.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.circuitIV_IV work.circuitIV_IV_test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 14:47:48 on Dec 09,2020
+# Loading work.circuitIV_IV
+# Loading work.RAM_512
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+# Loading work.RAM_64
+# Loading work.RAM8
+# Loading work.REG_16
+# Loading work.mux8_16
+# Loading work.mux4_16
+# Loading work.mux2_16
+# Loading work.multiply
+# Loading work.circuitIV_IV_test
+# Loading work.BIN_CELL
+# Loading work.mux
+# Loading work.or_gate
+# Loading work.D_FF_A_RE_HIGH_NE
+# Loading work.D_LA_RE
+# Loading work.nand_3in
