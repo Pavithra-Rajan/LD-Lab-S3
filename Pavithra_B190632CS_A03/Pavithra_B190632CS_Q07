@@ -1,0 +1,93 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assignment_3
+# Compile of Pavithra_B190632CS_Q07_A03.v was successful.
+# Compile of Pavithra_B190632CS_TB_Q07_A03.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.RAM4K work.RAM_4K_TEST
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 13:59:44 on Nov 22,2020
+# Loading work.RAM4K
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+# Loading work.RAM512
+# Loading work.RAM64
+# Loading work.RAM8
+# Loading work.REG_16
+# Loading work.mux8_16
+# Loading work.mux4_16
+# Loading work.mux2_16
+# Loading work.RAM_4K_TEST
+# Loading work.BIN_CELL
+# Loading work.mux
+# Loading work.or_gate
+# Loading work.D_latch
+# Loading work.srlatch
+# ** Warning: Design size of 48 statements or 2018733 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/RAM_4K_TEST/*
+run
+#  OP=xxxxxxxxxxxxxxxx, D=xxxxxxxxxxxxxxxx, clk=x, read=x, write=x, address=xxxxxx 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 
+#  OP=0000000001000000, D=0000000000000000, clk=1, read=1, write=0, address=010101 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000100000000, clk=1, read=0, write=1, address=011111 
+#  OP=0000000100000000, D=0000000000000000, clk=1, read=1, write=0, address=011111 
+#  OP=xxxxxxxxxxxxxxxx, D=0000000001000000, clk=1, read=0, write=1, address=010101 

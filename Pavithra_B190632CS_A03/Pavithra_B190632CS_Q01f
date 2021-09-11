@@ -1,0 +1,41 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assignment_3
+# Compile of Pavithra_B190632CS_Q01f.v was successful with warnings.
+# Compile of Pavithra_B190632CS_TB_Q01f.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim work.D_FF_S_RE_NE work.D_FLIPFLOP_TEST_NE_S_RE
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 15:53:02 on Nov 21,2020
+# Loading work.D_FF_S_RE_NE
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.D_FLIP_FLOP
+# Loading work.D_LATCH
+# Loading work.D_FLIPFLOP_TEST_NE_S_RE
+add wave -position insertpoint sim:/D_FLIPFLOP_TEST_NE_S_RE/*
+run
+# D=0,RE=0,Q=x,Qnot=x
+# D=0,RE=0,Q=0,Qnot=1
+# D=0,RE=1,Q=0,Qnot=1
+# D=1,RE=0,Q=0,Qnot=1
+# D=1,RE=0,Q=1,Qnot=0
+# D=1,RE=1,Q=1,Qnot=0
+# D=1,RE=1,Q=0,Qnot=1

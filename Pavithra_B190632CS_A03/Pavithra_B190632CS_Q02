@@ -1,0 +1,136 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project assignment_3
+# Compile of Pavithra_B190632CS_Q02_A03.v was successful.
+# Compile of Pavithra_B190632CS_TB_Q02_A03.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.BIN_CELL work.BIN_CELL_TEST
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 22:38:01 on Nov 21,2020
+# Loading work.BIN_CELL
+# Loading work.and_gate
+# Loading work.mux
+# Loading work.not_gate
+# Loading work.or_gate
+# Loading work.D_FLIP_FLOP
+# Loading work.D_LATCH
+# Loading work.BIN_CELL_TEST
+add wave -position insertpoint sim:/BIN_CELL_TEST/*
+run
+# D=0,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=1,W=0,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=0,CS=1,R=0,W=1,O=x,CLK=1
+# D=1,CS=1,R=1,W=0,O=1,CLK=0
+# D=1,CS=1,R=1,W=0,O=1,CLK=1
+# D=0,CS=1,R=1,W=0,O=1,CLK=0
+# D=0,CS=1,R=1,W=0,O=0,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
+# D=1,CS=0,R=0,W=1,O=x,CLK=1
+# D=1,CS=0,R=0,W=1,O=x,CLK=0
