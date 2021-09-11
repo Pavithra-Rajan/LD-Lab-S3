@@ -1,0 +1,7 @@
+Module used
+	D FlipFlop with asynchronous fallling edge with active reset Pavithra_B190632CS_Q01g
+	Binary Cell Pavithra_B190632CS_Q02
+	24 bit Register Pavithra_B190632CS_Q03
+	Ram8 Pavithra_B190632CS_Q04
+	Ram64 Pavithra_B190632CS_Q05
+	Ram512 Pavithra_B190632CS_Q06
