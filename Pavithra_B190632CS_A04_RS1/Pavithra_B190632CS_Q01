@@ -1,0 +1,62 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project Assignment_4
+# Compile of Pavithra_B190632CS_Q01_A04.v was successful.
+# Compile of Pavithra_B190632CS_TB_Q01_A04.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.mult work.mult_test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 23:17:52 on Nov 26,2020
+# Loading work.mult
+# Loading work.RAM8
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+# Loading work.REG_16
+# Loading work.mux8_16
+# Loading work.mux4_16
+# Loading work.mux2_16
+# Loading work.multiply
+# Loading work.mult_test
+# Loading work.BIN_CELL
+# Loading work.mux
+# Loading work.or_gate
+# Loading work.D_latch
+# Loading work.srlatch
+# ** Warning: Design size of 60 statements or 15733 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/mult_test/*
+run
+# OUTPUT=         x ,MULTIPLICANT=    x ,MULTIPLIER=    x, Clk=0
+# OUTPUT=         x ,MULTIPLICANT=    x ,MULTIPLIER=    x, Clk=1
+# OUTPUT=         x ,MULTIPLICANT=   12 ,MULTIPLIER=   10, Clk=0
+# OUTPUT=       120 ,MULTIPLICANT=   12 ,MULTIPLIER=   10, Clk=1
+# OUTPUT=       120 ,MULTIPLICANT=  105 ,MULTIPLIER=   11, Clk=0
+# OUTPUT=      1155 ,MULTIPLICANT=  105 ,MULTIPLIER=   11, Clk=1
+# OUTPUT=      1155 ,MULTIPLICANT=   31 ,MULTIPLIER=    5, Clk=0
+# OUTPUT=       155 ,MULTIPLICANT=   31 ,MULTIPLIER=    5, Clk=1
+# OUTPUT=       155 ,MULTIPLICANT=   10 ,MULTIPLIER=   81, Clk=0
+# OUTPUT=       810 ,MULTIPLICANT=   10 ,MULTIPLIER=   81, Clk=1
+# OUTPUT=       810 ,MULTIPLICANT=   15 ,MULTIPLIER=   20, Clk=0
+# OUTPUT=       300 ,MULTIPLICANT=   15 ,MULTIPLIER=   20, Clk=1
+# OUTPUT=       300 ,MULTIPLICANT=   15 ,MULTIPLIER=   20, Clk=0
+# OUTPUT=       300 ,MULTIPLICANT=   15 ,MULTIPLIER=   20, Clk=1

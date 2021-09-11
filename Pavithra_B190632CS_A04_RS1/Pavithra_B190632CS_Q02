@@ -1,0 +1,70 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project Assignment_4
+# Compile of Pavithra_B190632CS_Q02a_A04.v was successful.
+# Compile of Pavithra_B190632CS_TB_Q02a_A04.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.PDT_SUM_DIFF work.PDT_SUM_DIFF_test
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 01:46:58 on Nov 27,2020
+# Loading work.PDT_SUM_DIFF
+# Loading work.RAM8
+# Loading work.demux_8
+# Loading work.demux
+# Loading work.not_gate
+# Loading work.and_gate
+# Loading work.demux_4
+# Loading work.REG_16
+# Loading work.mux8_16
+# Loading work.mux4_16
+# Loading work.mux2_16
+# Loading work.add
+# Loading work.sub
+# Loading work.multiply
+# Loading work.PDT_SUM_DIFF_test
+# Loading work.BIN_CELL
+# Loading work.mux
+# Loading work.or_gate
+# Loading work.D_latch
+# Loading work.srlatch
+# ** Warning: Design size of 66 statements or 15737 leaf instances exceeds ModelSim PE Student Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position insertpoint sim:/PDT_SUM_DIFF_test/*
+run
+# OUTPUT=         x ,X=    x ,Y=    x, Clk=0
+# OUTPUT=         x ,X=    x ,Y=    x, Clk=1
+# OUTPUT=         x ,X=   12 ,Y=   10, Clk=0
+# OUTPUT=        44 ,X=   12 ,Y=   10, Clk=1
+# OUTPUT=        44 ,X=  105 ,Y=   11, Clk=0
+# OUTPUT=     10904 ,X=  105 ,Y=   11, Clk=1
+# OUTPUT=     10904 ,X=   31 ,Y=    5, Clk=0
+# OUTPUT=       936 ,X=   31 ,Y=    5, Clk=1
+# OUTPUT=       936 ,X=  100 ,Y=   81, Clk=0
+# OUTPUT=      3439 ,X=  100 ,Y=   81, Clk=1
+# OUTPUT=      3439 ,X=   35 ,Y=   20, Clk=0
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=1
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=0
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=1
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=0
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=1
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=0
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=1
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=0
+# OUTPUT=       825 ,X=   35 ,Y=   20, Clk=1
